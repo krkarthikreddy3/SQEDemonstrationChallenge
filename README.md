@@ -88,5 +88,10 @@ We will be evaluating
 14. place small 6 slices no topping pizza- without quantity
 15. place Medium 8 Slices - 2 toppings pizza- without quantity
 
+#### Issues/Defects
+ 1. There are issues with toppings, when we select no topping pizza there is option to select toppings and place the order. Which should not be the case, not only for no topping even for one topping pizza we are able to add second topping and place the order
+ 2. While doing a reset all other fields are changing to default except topping, they are updated to default 
+ 3. If the quantity entered is not number even though we were able to proceed to place the order. Order is successfully place with NAN Value
+ 4.In the payment info without selecting the payment type we were able to place the order eventhough $ is missing in the dialog box order should not be placed
  
 
