@@ -44,7 +44,7 @@ We will be evaluating
 
 #### Test Cases
 
-HappyPath:
+   #### HappyPath:
 1. place small 6 slices no topping pizza-quantity 1- PAYMENT INFORMATION- creditcard
 2. place Small 6 Slices - 1 topping-quantity 1 - PAYMENT INFORMATION- creditcard
 3. place Medium 8 Slices - 2 toppings-quantity 1- PAYMENT INFORMATION- creditcard
@@ -70,7 +70,8 @@ HappyPath:
 23. place Medium 8 Slices - 2 toppings-quantity 2- And do a Reset
 24. place Large 10 Slices - no toppings-quantity 2- And do a Reset
 25. place Large 10 Slices - 2 toppings-quantity 15- And do a Reset
-Negative:
+
+  #### Negative:
 1. place small 6 slices no topping pizza- with toppings
 2. place Small 6 Slices - 1 topping pizza - add two toppings
 3. place Medium 8 Slices - 2 toppings pizza - add only one topping
