@@ -44,5 +44,48 @@ We will be evaluating
 
 #### Test Cases
 
- 1.  
+HappyPath:
+1. place small 6 slices no topping pizza-quantity 1- PAYMENT INFORMATION- creditcard
+2. place Small 6 Slices - 1 topping-quantity 1 - PAYMENT INFORMATION- creditcard
+3. place Medium 8 Slices - 2 toppings-quantity 1- PAYMENT INFORMATION- creditcard
+4. place Large 10 Slices - no toppings-quantity 1- PAYMENT INFORMATION- creditcard
+5. place Large 10 Slices - 2 toppings-quantity 1- PAYMENT INFORMATION- creditcard
+6. place small 6 slices no topping pizza-quantity 2- PAYMENT INFORMATION- creditcard
+7. place Small 6 Slices - 1 topping-quantity 2- PAYMENT INFORMATION- creditcard
+8. place Medium 8 Slices - 2 toppings-quantity 2- PAYMENT INFORMATION- creditcard
+9. place Large 10 Slices - no toppings-quantity 2- PAYMENT INFORMATION- creditcard
+10. place Large 10 Slices - 2 toppings-quantity 2- PAYMENT INFORMATION- creditcard
+11. place small 6 slices no topping pizza-quantity 1- PAYMENT INFORMATION- Cash on Pickup
+12. place Small 6 Slices - 1 topping-quantity 1 - PAYMENT INFORMATION- Cash on Pickup
+13. place Medium 8 Slices - 2 toppings-quantity 1- PAYMENT INFORMATION- Cash on Pickup
+14. place Large 10 Slices - no toppings-quantity 1- PAYMENT INFORMATION- Cash on Pickup
+15. place Large 10 Slices - 2 toppings-quantity 1- PAYMENT INFORMATION- Cash on Pickup
+16. place small 6 slices no topping pizza-quantity 2- PAYMENT INFORMATION- Cash on Pickup
+17. place Small 6 Slices - 1 topping-quantity 2- PAYMENT INFORMATION- Cash on Pickup
+18. place Medium 8 Slices - 2 toppings-quantity 2- PAYMENT INFORMATION- Cash on Pickup
+19. place Large 10 Slices - no toppings-quantity 2- PAYMENT INFORMATION- Cash on Pickup
+20. place Large 10 Slices - 2 toppings-quantity 2- PAYMENT INFORMATION- Cash on Pickup
+21.  place small 6 slices no topping pizza-quantity 1- And do a Reset
+22. place Small 6 Slices - 1 topping-quantity 1 - And do a Reset
+23. place Medium 8 Slices - 2 toppings-quantity 2- And do a Reset
+24. place Large 10 Slices - no toppings-quantity 2- And do a Reset
+25. place Large 10 Slices - 2 toppings-quantity 15- And do a Reset
+Negative:
+1. place small 6 slices no topping pizza- with toppings
+2. place Small 6 Slices - 1 topping pizza - add two toppings
+3. place Medium 8 Slices - 2 toppings pizza - add only one topping
+4. place small 6 slices no topping pizza - with quantity other than integer
+5. place Medium 8 Slices - 2 toppings pizza- without payment information
+6. place small 6 slices no topping pizza- without payment information
+7. place Medium 8 Slices - 2 toppings pizza- without payment information
+8. place Large 10 Slices - no toppings pizza- without payment information
+9. place Medium 8 Slices - 2 toppings pizza- without PICKUP INFORMATION
+10. place small 6 slices no topping pizza- without PICKUP INFORMATION
+11. place Medium 8 Slices - 2 toppings pizza- without PICKUP INFORMATION
+12. place Large 10 Slices - no toppings pizza- without quantity
+13. place Medium 8 Slices - 2 toppings pizza- without quantity
+14. place small 6 slices no topping pizza- without quantity
+15. place Medium 8 Slices - 2 toppings pizza- without quantity
+
+ 
 
